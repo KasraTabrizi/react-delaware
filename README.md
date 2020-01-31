@@ -8,12 +8,12 @@ Create a dynamic table in react that fetches the json data with a button and add
 
 I have created 3 components:
 
-1. App component (parent)
+1. App component (parent): 
    Here, I have created a function called handleAPI, that fetches the API data.
    The fetched data is reversed and stored into another array called 'tables'
-2. FetchButton component (child)
+2. FetchButton component (child): 
    the FetchButton will call the handleAPI function when pressed.
-3. TableRowData component (child)
+3. TableRowData component (child): 
    this component will receive the each element of the tables array and will display it as a row of the table 
 
 ## Remarks

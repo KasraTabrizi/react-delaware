@@ -1,5 +1,6 @@
 import React from 'react';
 
+//each element of the array will be stored in a td cell
 const TableRowData = (props) => {
     return (
         <tr>

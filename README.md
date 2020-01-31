@@ -14,7 +14,7 @@ I have created 3 components:
 2. FetchButton component (child): 
    the FetchButton will call the handleAPI function when pressed.
 3. TableRowData component (child): 
-   this component will receive the each element of the tables array and will display it as a row of the table 
+   this component will receive each element of the tables array and will display it as a row of the table 
 
 ## Remarks
 

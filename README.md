@@ -1,5 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+Create a dynamic table in react that fetches the json data with a button and adds it to a table.
+
+## Approach
+
+I have created 3 components:
+
+1. App component (parent)
+   Here, I have created a function called handleAPI, that fetches the API data.
+   The fetched data is reversed and stored into another array called 'tables'
+2. FetchButton component (child)
+   the FetchButton will call the handleAPI function when pressed.
+3. TableRowData component (child)
+   this component will receive the each element of the tables array and will display it as a row of the table 
+
+## Remarks
+
+When I put the API link directly into the browser, I receive the ramdom JSON data.
+However, when I try to fetch it via react, I get some 'cors' errors. To solve this, I have installed the "Allow CORS: Access-Control-Allow-Origin" extension for chrome.
+
+## Screenshot
+
+I could not add a screenshot with the result because there is a problem with the server that provides the API.
+
 ## Available Scripts
 
 In the project directory, you can run:
